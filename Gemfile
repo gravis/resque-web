@@ -14,13 +14,13 @@ end
 
 group :test do
   gem 'minitest-spec-rails', "~> 4.7.6"
-  gem 'coveralls', :require => false
+  gem 'coveralls', '>= 0.8.14', :require => false
   gem 'redcard'
   gem "mocha", :require => false
 end
 
 
-gem 'uglifier', '>= 1.0.3'
+gem 'uglifier', '>= 2.7.1'
 
 gem 'libv8',        '~> 3.16.14.3', :platforms => :ruby
 gem 'therubyracer', '~> 0.12.1',    :platforms => :ruby
