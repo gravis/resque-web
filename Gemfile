@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 gemspec
-gem 'rails', '~> 4.0.3'
+gem 'rails', '~> 6.0.3', '>= 6.0.3.5'
 gem 'resque', :git => 'https://github.com/resque/resque.git', :branch => "1-x-stable"
 
 gem 'sqlite3', :platforms => :ruby
@@ -13,7 +13,7 @@ group :development, :test do
 end
 
 group :test do
-  gem 'minitest-spec-rails', "~> 4.7.6"
+  gem 'minitest-spec-rails', '~> 5.3.0'
   gem 'coveralls', :require => false
   gem 'redcard'
   gem "mocha", :require => false
