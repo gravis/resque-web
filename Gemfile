@@ -9,7 +9,7 @@ gem 'activerecord-jdbcsqlite3-adapter', :platforms => :jruby
 
 group :development, :test do
   gem "dotenv-rails"
-  gem "rdoc"
+  gem "rdoc", ">= 6.3.1"
 end
 
 group :test do
