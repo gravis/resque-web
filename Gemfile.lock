@@ -100,7 +100,7 @@ GEM
     multi_json (1.11.0)
     netrc (0.10.3)
     racc (1.4.12)
-    rack (1.5.3)
+    rack (1.5.5)
     rack-protection (1.5.3)
       rack
     rack-test (0.6.3)
