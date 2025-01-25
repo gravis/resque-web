@@ -5,7 +5,7 @@ gem 'rails', '~> 4.0.3'
 gem 'resque', :git => 'https://github.com/resque/resque.git', :branch => "1-x-stable"
 
 gem 'sqlite3', :platforms => :ruby
-gem 'activerecord-jdbcsqlite3-adapter', :platforms => :jruby
+gem 'activerecord-jdbcsqlite3-adapter', '>= 71.0', :platforms => :jruby
 
 group :development, :test do
   gem "dotenv-rails"
